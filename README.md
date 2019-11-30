@@ -25,7 +25,7 @@ const CoinrankingClient = new Coinranking();
 
 //3. Make calls
 var func = async() => {
-  let data = await Coinranking.stats.global();
+  let data = await CoinrankingClient.stats.global();
 };
 ```
 
